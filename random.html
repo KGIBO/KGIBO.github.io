@@ -13,11 +13,15 @@
         "https://cdn.jsdelivr.net/gh/huvso/my_memo/IBO/an.gif",
         "https://cdn.jsdelivr.net/gh/huvso/my_memo/IBO/kang.gif"
       ]
-
-      window.location=url_list[Math.floor(Math.random()*url_list.length)]
+      setTimeout(function() {
+        window.location=url_list[Math.floor(Math.random()*url_list.length)]  
+      }, 2000)
+      
     }
   </script>
   <body>
-    <h3>50%호 확률로 강동원 뽑기</h3>    
+    <div style="display:flex; justify-content: center; width: 100%; height: 100vh; align-items: center;">
+      <h1>하하하</h1>
+    </div>
   </body>
 </html>
